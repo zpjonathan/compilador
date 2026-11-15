@@ -1,0 +1,9 @@
+// Caso con errores intencionales
+int main() {
+    int x = 10;
+    float y = 3.14;
+    x $ y;              // ERROR 1: carácter '$' no reconocido
+    string s = "hola;   // ERROR 2: string sin cerrar
+    int z = @;          // ERROR 3: carácter '@' no reconocido
+    return 0;
+}   

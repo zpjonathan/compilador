@@ -1,0 +1,9 @@
+// Programa de ejemplo
+int main() {
+    int limite = 100;
+    float promedio = 3.14;
+    while (limite > 0) {
+        limite = limite - 1;
+    }
+    return 0;
+}   
