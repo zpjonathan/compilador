@@ -1,9 +1,12 @@
 Proyecto Final de Compiladores — Fase 1: Análisis Léxico
-Integrantes
-Ovidio Jonathan Zacapa Patriz
+Integrantes:
 Keyli Marce
-Descripción
+Walter Hernandez
+Ovidio Jonathan Zacapa Patriz
 
+
+
+Descripción:
 Analizador léxico (scanner) escrito en Python que lee un archivo de código fuente, reconoce los tokens del lenguaje y reporta los errores léxicos con su línea y columna exactas. Usa únicamente el módulo estándar re (sin PLY, ANTLR ni Flex).
 
 Estructura
@@ -17,7 +20,7 @@ Ejecución
 
 Requiere Python 3.8 o superior. Desde la carpeta del proyecto, usar estos comandos para ejecutar y ver los casos de prueba:
 
-bash
+terminal
 python main.py tests/caso_valido.txt
 python main.py tests/caso_error.txt
 Componentes reconocidos
